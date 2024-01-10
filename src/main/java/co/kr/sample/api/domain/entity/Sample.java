@@ -16,4 +16,15 @@ public class Sample {
     public String name;
     public LocalDateTime createdAt;
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
 }
